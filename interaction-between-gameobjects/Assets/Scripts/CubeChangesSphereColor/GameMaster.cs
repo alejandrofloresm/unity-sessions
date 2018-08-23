@@ -5,14 +5,25 @@ using UnityEngine;
 namespace CubeChangesSphereColor {
     public class GameMaster : MonoBehaviour {
 
-        // Use this for initialization
-        void Start () {
+        public GameObject Sphere;
+        public Color Color;
 
+		// Use this for initialization
+		void Start () {
+
+		}
+
+		// Update is called once per frame
+		void Update () {
+
+		}
+
+        void OnMouseDown() {
+            ChangeColor();
         }
 
-        // Update is called once per frame
-        void Update () {
-
+        void ChangeColor() {
+            Sphere.GetComponent<Renderer>().material.color = Color;
         }
     }
 

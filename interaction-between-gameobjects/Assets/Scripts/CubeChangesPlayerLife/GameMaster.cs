@@ -6,9 +6,6 @@ namespace CubeChangesPlayerLife
 {
 	public class GameMaster : MonoBehaviour {
 
-        public GameObject Sphere;
-        public Color Color;
-
 		// Use this for initialization
 		void Start () {
 
@@ -19,12 +16,5 @@ namespace CubeChangesPlayerLife
 
 		}
 
-        void OnMouseDown() {
-            ChangeColor();
-        }
-
-        void ChangeColor() {
-            Sphere.GetComponent<Renderer>().material.color = Color;
-        }
 	}
 }
