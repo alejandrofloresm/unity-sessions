@@ -5,6 +5,9 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+# VS Code settings
+.vscode/
+
 # Visual Studio cache directory
 .vs/
 
@@ -34,6 +37,3 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
-# Remove vscode settings
-/.vscode/
