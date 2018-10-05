@@ -532,6 +532,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16fa63cd24d64e70b0f45d6c6575083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sphere: {fileID: 1260802267}
+  Color: {r: 0.9056604, g: 0.0627451, b: 0.21787111, a: 0}
 --- !u!1 &1397779573
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,9 @@ using UnityEngine;
 namespace CubeChangesPlayerLife
 {
 	public class GameMaster : MonoBehaviour {
+
+        public Models.Player Player;
+
 		// Use this for initialization
 		void Start () {
 
@@ -14,5 +17,10 @@ namespace CubeChangesPlayerLife
 		void Update () {
 
 		}
+
+        void OnMouseDown() {
+            Player.DealDamage(1);
+        }
+
 	}
 }
